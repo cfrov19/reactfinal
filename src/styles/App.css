@@ -1,0 +1,223 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.search-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-container input {
+  padding: 8px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-container button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.movies-section, .list-section {
+  width: 50%;
+
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 70vw;
+}
+
+.movie{
+  width: 20vw;
+}
+
+.movie-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  background: #f9f9f9;
+  width: 70%;
+}
+
+.movie-card img {
+  width: 100px;
+  height: 150px;
+}
+
+.movie-card button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.movie-list {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.movie-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+
+  
+}
+
+.movie-item button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.save-button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid #ffcc00;
+} 
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar h1 {
+  font-size: 24px;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.search-container {
+  margin-top: 20px;
+}
+
+.movies-section, .favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-item, .favorite-item {
+  margin: 10px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.imdb-link {
+  color: #009688;
+  text-decoration: none;
+}
+
+.imdb-link:hover {
+  text-decoration: underline;
+}
